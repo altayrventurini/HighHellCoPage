@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import logo from './img/logo_highhell_transparente.png'
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -15,5 +14,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-<img src={logo} alt="Logo" />

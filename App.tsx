@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 // The logo image is embedded as a self-contained Base64 data URI to ensure it loads correctly.
-const logoDataUri = "./img/logo_highhell_transparente.png";
+const logoDataUri = "./logo_highhell_transparente.png";
 // A subtle, repeating SVG pattern is used for the background to mimic the original image's texture.
 // It's URL-encoded to be used directly in a style attribute.
 const svgPatternDataUri = "data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle%3E.symbol %7B stroke: rgba(211, 192, 162, 0.05); stroke-width: 1.5; fill: none; %7D%3C/style%3E%3C/defs%3E%3Ccircle class='symbol' cx='40' cy='40' r='18' /%3E%3Cpath class='symbol' d='M40 22 V 58 M 22 40 H 58' /%3E%3Cpath class='symbol' d='M150 30 L 165 55 L 135 55 Z' /%3E%3Ccircle class='symbol' cx='90' cy='150' r='25' /%3E%3Crect class='symbol' x='120' y='110' width='30' height='30' transform='rotate(15, 135, 125)' /%3E%3Cpath class='symbol' d='M10 120 L 50 160' /%3E%3C/svg%3E";
